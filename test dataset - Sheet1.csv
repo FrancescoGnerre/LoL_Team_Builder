@@ -1,4 +1,4 @@
-Player Name,Soloqueue Rank,Flex Queue Rank,Primary Roll,Secondary Roll,Duo
+Player,Soloqueue,Flexqueue,Primary,Secondary,Duo
 player a,Silver,Iron,Jungle,Top,None
 palyer b,Bronze,Gold,Jungle,Mid,None
 player c,Bronze,Gold,Mid,Support,None
