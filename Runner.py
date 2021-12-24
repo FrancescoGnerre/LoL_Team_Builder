@@ -14,5 +14,5 @@ for i in range(df.shape[0]):
     print(df.iloc[i].Player)
     print(func.player_ELO(df.iloc[i]))
 
-
-
+print("Random Team Average ELO:")
+print(func.team_ELO(df.iloc[0], df.iloc[3], df.iloc[5], df.iloc[8], df.iloc[11]))
