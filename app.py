@@ -4,6 +4,9 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from google.oauth2 import service_account #this is for the scopes/sheet access
+import pandas as pd
+import numpy as np
+import funcs as func
 
 # sheets access through service account
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets.readonly']
@@ -29,6 +32,8 @@ try:
     for row in values:
         # Print columns A and E, which correspond to indices 0 and 4.
         print('%s, %s' % (row[0], row[1]))
+
+
 
 except HttpError as err:
     print(err)
