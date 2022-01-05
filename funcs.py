@@ -1,15 +1,16 @@
-import numpy as np
-import pandas as pd
+# import numpy as np
+# import pandas as pd
 
 
 # calculates the average elo of all players
-def total_average_elo(csv):
+#takes in a list of all of objects with all players and runs through it
+def total_average_elo(list):
     elo = 0.0
 
-    for i in range(csv.shape[0]):
-        elo += player_ELO(csv.iloc[i])
+    for i in list:
+        elo += i.Elo
 
-    elo = elo/(csv.shape[0])
+    elo = elo/(len(list))
 
     return elo
 
@@ -64,14 +65,15 @@ def get_secondary(player):
 
 
 # calculates the elo of a team given the elos of all the players in the team
+#i got these to work with objects so they take in player objects
 def team_ELO(player_top, player_jungle, player_mid, player_ADC, player_supp):
     elo = 0.0
 
-    elo += player_ELO(player_top)
-    elo += player_ELO(player_jungle)
-    elo += player_ELO(player_mid)
-    elo += player_ELO(player_ADC)
-    elo += player_ELO(player_supp)
+    elo += player_top.Elo
+    elo += player_jungle.Elo
+    elo += player_mid.Elo
+    elo += player_ADC.Elo
+    elo += player_supp.Elo
     elo = elo/5
 
     return elo
