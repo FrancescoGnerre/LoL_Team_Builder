@@ -70,15 +70,15 @@ def player_ELO(player):
     else:
         elo += 7
 
-    if player.Soloqueue == "Iron4":
+    if player.Flexqueue == "Iron4":
         elo += 1
-    elif player.Soloqueue == "Iron3":
+    elif player.Flexqueue == "Iron3":
         elo += 1.25
-    elif player.Soloqueue == "Iron2":
+    elif player.Flexqueue == "Iron2":
         elo += 1.5
-    elif player.Soloqueue == "Iron1":
+    elif player.Flexqueue == "Iron1":
         elo += 1.75
-    elif player.Soloqueue == "Bronze4":
+    elif player.Flexqueue == "Bronze4":
         elo += 2
     elif player.Flexqueue == "Bronze3":
         elo += 2.25
