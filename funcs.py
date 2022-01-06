@@ -41,7 +41,7 @@ def player_ELO(player):
         elo += 3.25
     elif player.Soloqueue == "Silver2":
         elo += 3.5
-    elif plauer.Soloqueue == "Silver1":
+    elif player.Soloqueue == "Silver1":
         elo += 3.75
     elif player.Soloqueue == "Gold4":
         elo += 4
@@ -92,7 +92,7 @@ def player_ELO(player):
         elo += 3.25
     elif player.Flexqueue == "Silver2":
         elo += 3.5
-    elif plauer.Flexqueue == "Silver1":
+    elif player.Flexqueue == "Silver1":
         elo += 3.75
     elif player.Flexqueue == "Gold4":
         elo += 4
