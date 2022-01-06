@@ -1,8 +1,8 @@
 Player,Soloqueue,Flexqueue,Primary,Secondary,Duo
-player a,Silver,Iron,Jungle,Top,None
-palyer b,Bronze,Gold,Jungle,Mid,None
-player c,Bronze,Gold,Mid,Support,None
-player d,Silver,Bronze,ADC,Jungle,None
+player a,Silver2,Iron3,Jungle,Top,None
+palyer b,Bronze4,Gold1,Jungle,Mid,None
+player c,Bronze2,Gold3,Mid,Support,None
+player d,Silver1,Bronze2,ADC,Jungle,None
 player e,Gold,Gold,Top,Support,None
 player f,Gold,Gold,Support,ADC,None
 player g,Bronze,Gold,ADC,Support,None
