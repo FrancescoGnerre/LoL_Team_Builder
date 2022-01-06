@@ -116,7 +116,7 @@ def player_ELO(player):
         elo += 6.25
     elif player.Flexqueue == "Diamond2":
         elo += 6.5
-    elif player.Flexqueue == "Diamond3":
+    elif player.Flexqueue == "Diamond1":
         elo += 6.75
     else:
         elo += 7
