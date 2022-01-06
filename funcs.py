@@ -70,7 +70,7 @@ def player_ELO(player):
     else:
         elo += 7
 
-if player.Soloqueue == "Iron4":
+    if player.Soloqueue == "Iron4":
         elo += 1
     elif player.Soloqueue == "Iron3":
         elo += 1.25
